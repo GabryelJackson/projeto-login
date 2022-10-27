@@ -5,6 +5,8 @@
     #fff7e5
     #fecdd0
     #f8afb8
+    #f5a3af
+    #59483e
 
 */
 
@@ -38,6 +40,8 @@ main {
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #imagem {
