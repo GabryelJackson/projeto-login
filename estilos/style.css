@@ -9,9 +9,9 @@
 */
 
 * {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    padding: 0px;
+    padding: 0PX;
     margin: 0px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     box-sizing: border-box;
 }
 
@@ -37,19 +37,18 @@ main {
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.603);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.637);
 }
 
 #imagem {
     background: #f8afb8 url('../imagens/pexels-marina-gr-9793918.jpg') no-repeat;
     height: 200px;
     background-size: cover;
-    background-position: center center;
+    background-position: top center;
     display: block;
 }
 
 #formulario {
     padding: 10px;
     display: block;
-
 }
